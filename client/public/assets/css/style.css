@@ -1,0 +1,111 @@
+body {
+    font-family: sans-serif;
+    background-color: #f7ede2 !important;
+  }
+  
+  input {
+    border: 1px solid #999;
+    padding: 0.5rem;
+    width: 300px;
+  }
+  
+  .no-suggestions {
+    color: #999;
+    padding: 0.5rem;
+  }
+  
+  .suggestions {
+    border: 1px solid #999;
+    border-top-width: 0;
+    list-style: none;
+    margin-top: 0;
+    max-height: 143px;
+    overflow-y: auto;
+    padding-left: 0;
+    width: calc(300px + 1rem);
+  }
+  
+  .suggestions li {
+    padding: 0.5rem;
+  }
+  
+  .suggestion-active,
+  .suggestions li:hover {
+    background-color: #008f68;
+    color: #fae042;
+    cursor: pointer;
+    font-weight: 700;
+  }
+  
+  .suggestions li:not(:last-of-type) {
+    border-bottom: 1px solid #999;
+  }
+
+  .MuiCardContent-root {
+    padding: 2px !important;
+  }
+
+  /* 
+  Chris's CSS Edits as of 8/7
+  */
+
+  .MuiTabs-indicator {
+    background-color: black !important;
+    height: 3px !important;
+    width: 100vw !important;
+  }
+
+  .MuiCardHeader-root {
+    padding: 5px !important;
+    text-align: center !important;
+    background-color: lightseagreen;
+  }
+
+  .remove-btn, .add-btn, .delete-btn {
+    padding: 0px !important;
+  }
+
+  .button-html {
+    padding: 2px !important;
+    width: 100%;
+  }
+
+  #add-to-fridge {
+    border: 1px solid black !important;
+  }
+
+
+  .MuiCardMedia-root {
+    height: 50px !important;
+  }
+
+  .home-page-card {
+    height: 15% !important;
+    padding-top: 0px !important;
+
+  }
+
+
+  .MuiTypography-overline {
+    font-size: 14px !important;
+    font-weight: 500 !important;
+    line-height: 12px !important;
+  }
+
+  .action-btns {
+    position: relative !important;
+    left: -8px !important;
+  }
+
+  .delete-btn {
+    color: gray !important;
+  }
+  
+  #footer {
+    position: fixed;
+    bottom: 0px;
+    height: 50px;
+    border-top: 4px solid black;
+    background-color: #daa520;
+    width: 100vw;
+  }

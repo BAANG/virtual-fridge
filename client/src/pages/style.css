@@ -1,0 +1,21 @@
+@import url("https://fonts.googleapis.com/css?family=Beth+Ellen|Domine|Libre+Caslon+Text|Old+Standard+TT|Playfair+Display|Source+Serif+Pro&display=swap");
+
+#fridge-container {
+    background-image: url(../pages/fridge-background.png);
+    position: static;
+    background-size: 100% 273px;
+    min-height: 273px;
+    /* background-size: cover; */
+    background-repeat: repeat-y;
+    
+}
+
+.MuiIconButton-colorSecondary {
+
+    color: #f50057 !important;
+}
+
+.MuiCheckbox-root {
+
+    color: #f50057 !important;
+}
