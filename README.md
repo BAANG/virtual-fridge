@@ -4,17 +4,8 @@
 
 
 As young adults, we spend hundreds of dollars eating out when we could 
-easily make food with the ingredients at home.
+easily make food with the ingredients at home. The fridge app was designed to solve these issues with a single comprehensive user experience. 
 
-### Our Site
-
-<img src="./client/src/images/Login.png">
-
-<img src="./client/src/images/ingredients2.png">
-
-<img src="./client/src/images/recipePageNew.png">
-
-<img src = "./client/src/images/grocery2.png">
 
 <br>
 
@@ -26,6 +17,24 @@ FRIDGE allows users to:
       for the recipe
 
 <br>
+
+### Our Site
+
+<img src="./client/src/images/Login.png">
+
+<img src="./client/src/images/ingredients2.png">
+
+<img src="./client/src/images/recipePageNew.png">
+
+<img src = "./client/src/images/grocery2.png">
+
+## Design Iterations 
+
+When discussing the most common use cases with actual users, they noted the inconvenience of manually entering virtual items into their fridge. We considered an alternative solution, which was using barcode APIs to instantly scan items. Unfortunately, the monthly cost of these services was simply too high to justify. 
+
+Users also mentioned that a final useful convenience would be the ability to have missing ingredients delivered to their doorstep. We worked on implementing the Postmates API to carry out those features, and were able to demonstrate a proof of concept (minus implementing it in production). 
+
+Users enjoyed the side-by-side layout of current ingredients with potential recipes, so that was left in. 
 
 ## To run locally 
 
@@ -122,6 +131,10 @@ When the user clicks on the grocery tab, they're redirected to a page that will 
 If they allow the sharing of their location, the visual map creates a marker to show them where they are. 
 
 A list of the 20 nearest grocery stores simultaneously populates on the page (with additional contact info provided).
+
+# Concluding Thoughts 
+
+This project taught us a lot about how to synthesize distinct elements into a clear user experience. We incorporated feedback on recording ingredients in the virtual fridge/easing the final delivery step, but were often constrained by available API resources. In the future, we'd love to convert this to a smooth mobile experience, potentially with React Native. 
 
 
 
